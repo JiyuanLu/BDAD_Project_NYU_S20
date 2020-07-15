@@ -1,0 +1,7 @@
+*** On Dumbo ***
+cd ~/BDAD/project
+curl -o NYC_Jobs.csv https://data.cityofnewyork.us/api/views/kpav-sd4t/rows.csv?accessType=DOWNLOAD&bom=true&format=true
+curl -o NYC_Payroll.csv https://data.cityofnewyork.us/api/views/k397-673e/rows.csv?accessType=DOWNLOAD&bom=true&format=true
+curl -o Chicago_Payroll.csv https://data.cityofchicago.org/api/views/xzkq-xp2w/rows.csv?accessType=DOWNLOAD&bom=true&format=true
+hdfs dfs -mkdir -p BDAD/data
+hdfs dfs -put *.csv BDAD/data

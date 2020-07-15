@@ -1,0 +1,2614 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook source-build='2020.1.2 (20201.20.0326.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='combined (jl11046.combined) (jl11046)' inline='true' name='federated.18enlr71qboss317oyqcf1cregph' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='spark.0jr2ajv06pox781gykogk0tj2xy4'>
+            <connection authentication='yes' authentication-type='3' class='spark' connection-type='3' dbname='' odbc-connect-string-extras='' one-time-sql='' port='4483' schema='jl11046' server='localhost' sslcert='' sslmode='' transport-type='1' username='jl11046'>
+              <connection-customization class='spark' enabled='false' version='18.1'>
+                <vendor name='spark' />
+                <driver name='spark' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='no' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='yes' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='yes' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='yes' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='yes' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <relation connection='spark.0jr2ajv06pox781gykogk0tj2xy4' name='combined' table='[jl11046].[combined]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[combined]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DepartmentName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DepartmentName]</local-name>
+            <parent-name>[combined]</parent-name>
+            <remote-alias>DepartmentName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[combined]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Salary]</local-name>
+            <parent-name>[combined]</parent-name>
+            <remote-alias>Salary</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_LONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Salary Margin' datatype='real' name='[Calculation_1237645517068423168]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='STDEV([Salary])/SQRT(COUNT([Salary]))' />
+      </column>
+      <column caption='Salary Upper Bar' datatype='real' name='[Calculation_1237645517068845057]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Salary]) + ([Calculation_1237645517068423168])' />
+      </column>
+      <column caption='Salary Lower Bar' datatype='real' name='[Calculation_1237645517069119490]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Salary]) - ([Calculation_1237645517068423168])' />
+      </column>
+      <column caption='Salary Bar Length' datatype='real' name='[Calculation_1237645517069389827]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_1237645517068845057] - [Calculation_1237645517069119490]' />
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+      <column-instance column='[Salary]' derivation='Avg' name='[avg:Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Salary]' derivation='Count' name='[cnt:Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Salary]' derivation='Max' name='[max:Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Salary]' derivation='Min' name='[min:Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Salary]' derivation='Stdev' name='[std:Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Salary]' derivation='Sum' name='[sum:Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1237645517069119490]' derivation='User' name='[usr:Calculation_1237645517069119490:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.362374' measure-ordering='alphabetic' measure-percentage='0.637626' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18enlr71qboss317oyqcf1cregph].[avg:Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.18enlr71qboss317oyqcf1cregph].[usr:Calculation_1237645517069119490:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18enlr71qboss317oyqcf1cregph].[std:Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18enlr71qboss317oyqcf1cregph].[sum:Salary:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:City:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chicago&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NYC&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='nyc_history (jl11046.nyc_history) (jl11046)' inline='true' name='federated.1inz4n50k5639918sx3g71j2a4ue' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='spark.1kqux95157ylks198pg6r0f63fcq'>
+            <connection authentication='yes' authentication-type='3' class='spark' connection-type='3' dbname='' odbc-connect-string-extras='' one-time-sql='' port='4483' schema='jl11046' server='localhost' sslcert='' sslmode='' transport-type='1' username='jl11046'>
+              <connection-customization class='spark' enabled='false' version='18.1'>
+                <vendor name='spark' />
+                <driver name='spark' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='no' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='yes' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='yes' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='yes' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='yes' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <relation connection='spark.1kqux95157ylks198pg6r0f63fcq' name='nyc_history' table='[jl11046].[nyc_history]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[nyc_history]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[nyc_history]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[nyc_history]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Salary]</local-name>
+            <parent-name>[nyc_history]</parent-name>
+            <remote-alias>Salary</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_LONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='ordinal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.513889' measure-ordering='alphabetic' measure-percentage='0.486111' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+    </datasource>
+    <datasource caption='nyc_jobs (jl11046.nyc_jobs) (jl11046)' inline='true' name='federated.0jnhxmj0nem3uo113thvk1gl7zem' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='spark.1ww52wi1wkpgwi14d1y0y1lgc67c'>
+            <connection authentication='yes' authentication-type='3' class='spark' connection-type='3' dbname='' odbc-connect-string-extras='' one-time-sql='' port='4483' schema='jl11046' server='localhost' sslcert='' sslmode='' transport-type='1' username='jl11046'>
+              <connection-customization class='spark' enabled='false' version='18.1'>
+                <vendor name='spark' />
+                <driver name='spark' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='no' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='yes' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='yes' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='yes' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='yes' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <relation connection='spark.1ww52wi1wkpgwi14d1y0y1lgc67c' name='nyc_jobs' table='[jl11046].[nyc_jobs]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[nyc_jobs]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[nyc_jobs]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[nyc_jobs]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Salary]</local-name>
+            <parent-name>[nyc_jobs]</parent-name>
+            <remote-alias>Salary</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.513889' measure-ordering='alphabetic' measure-percentage='0.486111' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Average Salary'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Avg' name='[avg:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.18enlr71qboss317oyqcf1cregph].[avg:Salary:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='refband'>
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='solid' />
+            <format attr='fill-color' id='refline0' value='#00000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</rows>
+        <cols>[federated.18enlr71qboss317oyqcf1cregph].[avg:Salary:qk]</cols>
+      </table>
+      <simple-id uuid='{C319D52B-5B8B-4297-96CD-5E072E5EEDE1}' />
+    </worksheet>
+    <worksheet name='Average Salary for Police &amp; Fire Department'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Avg' name='[avg:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:DepartmentName:nk]' member='&quot;FIRE&quot;' />
+              <groupfilter function='member' level='[none:DepartmentName:nk]' member='&quot;POLICE&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.18enlr71qboss317oyqcf1cregph].[avg:Salary:qk]' field-type='quantitative' max='104621.67412187318' min='-7978.7447622093932' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk] / [federated.18enlr71qboss317oyqcf1cregph].[none:City:nk])</rows>
+        <cols>[federated.18enlr71qboss317oyqcf1cregph].[avg:Salary:qk]</cols>
+      </table>
+      <simple-id uuid='{175A7600-A6EF-46B2-832E-F8F45C8E32E1}' />
+    </worksheet>
+    <worksheet name='Average Salary from 2014 to 2019 in NYC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc_history (jl11046.nyc_history) (jl11046)' name='federated.1inz4n50k5639918sx3g71j2a4ue' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1inz4n50k5639918sx3g71j2a4ue'>
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Salary]' derivation='Avg' name='[avg:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1inz4n50k5639918sx3g71j2a4ue].[avg:Salary:qk]' field-type='quantitative' max='77000.0' min='65000.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1inz4n50k5639918sx3g71j2a4ue].[avg:Salary:qk]</rows>
+        <cols>[federated.1inz4n50k5639918sx3g71j2a4ue].[tyr:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{94B79B5B-2163-4D0E-94FA-EF88CB553583}' />
+    </worksheet>
+    <worksheet name='Average Salary of New Jobs from 2016 to 2020 in NYC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc_jobs (jl11046.nyc_jobs) (jl11046)' name='federated.0jnhxmj0nem3uo113thvk1gl7zem' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jnhxmj0nem3uo113thvk1gl7zem'>
+            <column datatype='real' name='[Salary]' role='measure' type='quantitative' />
+            <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Salary]' derivation='Avg' name='[avg:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jnhxmj0nem3uo113thvk1gl7zem].[yr:Year:ok]'>
+            <groupfilter from='2016' function='range' level='[yr:Year:ok]' to='2020' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jnhxmj0nem3uo113thvk1gl7zem].[yr:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jnhxmj0nem3uo113thvk1gl7zem].[avg:Salary:qk]</rows>
+        <cols>[federated.0jnhxmj0nem3uo113thvk1gl7zem].[tyr:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{7CD31B4D-3F52-4FE1-93B1-AE25C2EE49A3}' />
+    </worksheet>
+    <worksheet name='Average Salary per Department'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Avg' name='[avg:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]' value='12' />
+            <format attr='height' field='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' value='13' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='17' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk] / [federated.18enlr71qboss317oyqcf1cregph].[none:City:nk])</rows>
+        <cols>[federated.18enlr71qboss317oyqcf1cregph].[avg:Salary:qk]</cols>
+      </table>
+      <simple-id uuid='{1DBE2A3A-E6B8-4B95-B449-A5977A7E162F}' />
+    </worksheet>
+    <worksheet name='Budget Spent from 2014 to 2019 in NYC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc_history (jl11046.nyc_history) (jl11046)' name='federated.1inz4n50k5639918sx3g71j2a4ue' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1inz4n50k5639918sx3g71j2a4ue'>
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Salary]' derivation='Sum' name='[sum:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1inz4n50k5639918sx3g71j2a4ue].[sum:Salary:qk]' field-type='quantitative' max='23000000000' min='17000000000' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1inz4n50k5639918sx3g71j2a4ue].[sum:Salary:qk]</rows>
+        <cols>[federated.1inz4n50k5639918sx3g71j2a4ue].[tyr:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{E984107A-7A60-4F8F-A069-DB9CB03B3E2D}' />
+    </worksheet>
+    <worksheet name='Chicago Employee Distribution by Department'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Count' name='[cnt:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]'>
+            <groupfilter function='member' level='[none:City:nk]' member='&quot;Chicago&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' value='Count of Employees Chicago&#10;'>
+              <formatted-text>
+                <run>Count of Employees Chicago&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' />
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' />
+              <text column='[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{311D9552-EE22-4837-9D3B-507772C8F482}' />
+    </worksheet>
+    <worksheet name='Highest Paid Job in Chicago'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+            <column-instance column='[Salary]' derivation='Max' name='[max:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Title]' derivation='None' name='[none:Title:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]' included-values='in-range'>
+            <min>260004</min>
+            <max>260004</max>
+          </filter>
+          <filter class='categorical' column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]'>
+            <groupfilter function='member' level='[none:City:nk]' member='&quot;Chicago&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</column>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.18enlr71qboss317oyqcf1cregph].[none:Title:nk]' value='180' />
+            <format attr='width' field='[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]' value='120' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#ddebf0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk] / [federated.18enlr71qboss317oyqcf1cregph].[none:Title:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5063349E-CD9F-4A87-B447-F8A16899E93A}' />
+    </worksheet>
+    <worksheet name='Highest Paid Job in NYC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+            <column-instance column='[Salary]' derivation='Max' name='[max:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Title]' derivation='None' name='[none:Title:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]' included-values='in-range'>
+            <min>302801</min>
+            <max>302801</max>
+          </filter>
+          <filter class='categorical' column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]'>
+            <groupfilter function='member' level='[none:City:nk]' member='&quot;NYC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</column>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5ead7' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk] / [federated.18enlr71qboss317oyqcf1cregph].[none:Title:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{1B8BC7E1-2B9B-4D02-9D18-161EA7D851EA}' />
+    </worksheet>
+    <worksheet name='Lowest Paid Job in Chicago'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+            <column-instance column='[Salary]' derivation='Min' name='[min:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Title]' derivation='None' name='[none:Title:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]' included-values='in-range'>
+            <min>14160</min>
+            <max>14160</max>
+          </filter>
+          <filter class='categorical' column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]'>
+            <groupfilter function='member' level='[none:City:nk]' member='&quot;Chicago&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</column>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.18enlr71qboss317oyqcf1cregph].[none:Title:nk]' value='148' />
+            <format attr='width' field='[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]' value='116' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#ddebf0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk] / [federated.18enlr71qboss317oyqcf1cregph].[none:Title:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{DCCAC7CD-A0C2-4CD1-BF4D-5CE8775C91AA}' />
+    </worksheet>
+    <worksheet name='Lowest Paid Job in NYC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+            <column-instance column='[Salary]' derivation='Min' name='[min:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Title]' derivation='None' name='[none:Title:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]' included-values='in-range'>
+            <min>28026</min>
+            <max>28026</max>
+          </filter>
+          <filter class='categorical' column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]'>
+            <groupfilter function='member' level='[none:City:nk]' member='&quot;NYC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</column>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.18enlr71qboss317oyqcf1cregph].[none:Title:nk]' value='148' />
+            <format attr='width' field='[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]' value='116' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5ead7' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk] / [federated.18enlr71qboss317oyqcf1cregph].[none:Title:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{4880B0D9-FA69-4DD2-9610-DA800A84BC21}' />
+    </worksheet>
+    <worksheet name='Max Salary'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Max' name='[max:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</rows>
+        <cols>[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]</cols>
+      </table>
+      <simple-id uuid='{9613BC04-DB09-45E6-A61A-9454E0AF9BD3}' />
+    </worksheet>
+    <worksheet name='Max Salary per Department'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Max' name='[max:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' value='13' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk] / [federated.18enlr71qboss317oyqcf1cregph].[none:City:nk])</rows>
+        <cols>[federated.18enlr71qboss317oyqcf1cregph].[max:Salary:qk]</cols>
+      </table>
+      <simple-id uuid='{451696D1-4B3C-49BC-8B82-1779F28F69FF}' />
+    </worksheet>
+    <worksheet name='Min Salary'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Min' name='[min:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</rows>
+        <cols>[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]</cols>
+      </table>
+      <simple-id uuid='{D8A98B6A-7110-466A-9CB8-FAE7C2B57E9B}' />
+    </worksheet>
+    <worksheet name='Min Salary per Department'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Min' name='[min:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' value='13' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk] / [federated.18enlr71qboss317oyqcf1cregph].[none:City:nk])</rows>
+        <cols>[federated.18enlr71qboss317oyqcf1cregph].[min:Salary:qk]</cols>
+      </table>
+      <simple-id uuid='{B35E8099-42AC-4F83-A091-185552A0F98D}' />
+    </worksheet>
+    <worksheet name='NYC Employee Distribution by Department'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined (jl11046.combined) (jl11046)' name='federated.18enlr71qboss317oyqcf1cregph' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18enlr71qboss317oyqcf1cregph'>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Department Name' datatype='string' name='[DepartmentName]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='Count' name='[cnt:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DepartmentName]' derivation='None' name='[none:DepartmentName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]'>
+            <groupfilter function='member' level='[none:City:nk]' member='&quot;NYC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' palette='orange_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' value='Count of Employees NYC'>
+              <formatted-text>
+                <run>Count of Employees NYC</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' />
+              <color column='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' />
+              <text column='[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{962E9BD1-2B98-4127-AFBB-11B08649EC95}' />
+    </worksheet>
+    <worksheet name='Numebr of Jobs from 2014 to 2019 in NYC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc_history (jl11046.nyc_history) (jl11046)' name='federated.1inz4n50k5639918sx3g71j2a4ue' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1inz4n50k5639918sx3g71j2a4ue'>
+            <column datatype='integer' name='[Salary]' role='measure' type='quantitative' />
+            <column datatype='date' datatype-customized='true' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Salary]' derivation='Count' name='[cnt:Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1inz4n50k5639918sx3g71j2a4ue].[cnt:Salary:qk]' field-type='quantitative' max='310000' min='270000' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1inz4n50k5639918sx3g71j2a4ue].[cnt:Salary:qk]</rows>
+        <cols>[federated.1inz4n50k5639918sx3g71j2a4ue].[tyr:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{D731D67A-76E1-41CB-9840-058E18FE8D76}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98306' id='10' param='horz' type='layout-flow' w='99028' x='486' y='847'>
+            <zone h='98306' id='8' type='layout-basic' w='88754' x='486' y='847'>
+              <zone h='18433' id='7' name='Average Salary per Department' w='88754' x='486' y='54131'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='40784' id='22' name='Average Salary for Police &amp; Fire Department' w='26997' x='62243' y='13347'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='40784' id='38' name='Chicago Employee Distribution by Department' w='30904' x='486' y='13347'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='40784' id='40' name='NYC Employee Distribution by Department' w='30853' x='31390' y='13347'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12500' id='82' name='Highest Paid Job in Chicago' w='22572' x='486' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12500' id='133' name='Lowest Paid Job in Chicago' w='21991' x='23058' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12500' id='134' name='Lowest Paid Job in NYC' w='22194' x='67046' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12500' id='141' name='Highest Paid Job in NYC' w='21997' x='45049' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='26589' id='146' name='Budget Spent from 2014 to 2019 in NYC' w='22183' x='486' y='72564'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='26589' id='175' name='Numebr of Jobs from 2014 to 2019 in NYC' w='22679' x='44859' y='72564'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='26589' id='210' name='Average Salary from 2014 to 2019 in NYC' w='22190' x='22669' y='72564'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='26589' id='211' name='Average Salary of New Jobs from 2016 to 2020 in NYC' w='21702' x='67538' y='72564'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='169' h='98306' id='9' is-fixed='true' param='vert' type='layout-flow' w='10274' x='89240' y='847'>
+              <zone h='6991' id='11' name='Average Salary per Department' pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' w='10274' x='89240' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6885' id='39' name='Chicago Employee Distribution by Department' pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' type='color' w='10274' x='89240' y='7838'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6885' id='43' name='NYC Employee Distribution by Department' pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' type='color' w='10274' x='89240' y='14723'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2500' minheight='2500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='219' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98306' id='218' param='vert' type='layout-flow' w='99028' x='486' y='847'>
+                <zone fixed-size='92' h='12500' id='82' is-fixed='true' name='Highest Paid Job in Chicago' w='22572' x='486' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='92' h='12500' id='133' is-fixed='true' name='Lowest Paid Job in Chicago' w='21991' x='23058' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='92' h='12500' id='141' is-fixed='true' name='Highest Paid Job in NYC' w='21997' x='45049' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='92' h='12500' id='134' is-fixed='true' name='Lowest Paid Job in NYC' w='22194' x='67046' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40784' id='38' is-fixed='true' name='Chicago Employee Distribution by Department' w='30904' x='486' y='13347'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6885' id='39' name='Chicago Employee Distribution by Department' pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' type='color' w='10274' x='89240' y='7838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40784' id='40' is-fixed='true' name='NYC Employee Distribution by Department' w='30853' x='31390' y='13347'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6885' id='43' name='NYC Employee Distribution by Department' pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' type='color' w='10274' x='89240' y='14723'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40784' id='22' is-fixed='true' name='Average Salary for Police &amp; Fire Department' w='26997' x='62243' y='13347'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='140' h='18433' id='7' is-fixed='true' name='Average Salary per Department' w='88754' x='486' y='54131'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6991' id='11' name='Average Salary per Department' pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' w='10274' x='89240' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='204' h='26589' id='146' is-fixed='true' name='Budget Spent from 2014 to 2019 in NYC' w='22183' x='486' y='72564'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='204' h='26589' id='210' is-fixed='true' name='Average Salary from 2014 to 2019 in NYC' w='22190' x='22669' y='72564'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='204' h='26589' id='175' is-fixed='true' name='Numebr of Jobs from 2014 to 2019 in NYC' w='22679' x='44859' y='72564'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='204' h='26589' id='211' is-fixed='true' name='Average Salary of New Jobs from 2016 to 2020 in NYC' w='21702' x='67538' y='72564'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4E8A1500-5B25-494A-9768-EBCBE733F689}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Average Salary for Police &amp; Fire Department'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Salary from 2014 to 2019 in NYC'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Salary of New Jobs from 2016 to 2020 in NYC'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Salary per Department' />
+        <viewpoint name='Budget Spent from 2014 to 2019 in NYC'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Chicago Employee Distribution by Department' />
+        <viewpoint name='Highest Paid Job in Chicago' />
+        <viewpoint name='Highest Paid Job in NYC' />
+        <viewpoint name='Lowest Paid Job in Chicago' />
+        <viewpoint name='Lowest Paid Job in NYC' />
+        <viewpoint name='NYC Employee Distribution by Department' />
+        <viewpoint name='Numebr of Jobs from 2014 to 2019 in NYC'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{793C48E7-6BBC-44B6-9E1C-B74F10C151CF}' />
+    </window>
+    <window class='worksheet' name='Average Salary'>
+      <cards>
+        <edge name='left'>
+          <strip size='212'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{154727E7-B411-4E2C-9BC7-27746FE820C6}' />
+    </window>
+    <window class='worksheet' name='Max Salary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C2CEFA17-28D5-49B8-BC8D-1B910638E35E}' />
+    </window>
+    <window class='worksheet' name='Min Salary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D1477FEA-9231-4E21-9EF6-9F7232C348EF}' />
+    </window>
+    <window class='worksheet' name='Average Salary per Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A5A92968-173A-4156-940F-E96AB8C19C0E}' />
+    </window>
+    <window class='worksheet' name='Max Salary per Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A768FAAF-4816-464D-BD0E-4702B4D259F5}' />
+    </window>
+    <window class='worksheet' name='Min Salary per Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4B6AD28D-6363-4E79-B857-86C381E5C64E}' />
+    </window>
+    <window class='worksheet' name='Average Salary for Police &amp; Fire Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.18enlr71qboss317oyqcf1cregph].[none:DepartmentName:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7D932774-7FD4-486E-BFBB-AFBD46355003}' />
+    </window>
+    <window class='worksheet' name='Chicago Employee Distribution by Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B4C62C32-C6DD-4D84-8FDA-650DC384E3F9}' />
+    </window>
+    <window class='worksheet' name='NYC Employee Distribution by Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18enlr71qboss317oyqcf1cregph].[cnt:Salary:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{17F28530-2FB2-4B8D-AD26-9F6BCDD6AB2C}' />
+    </window>
+    <window class='worksheet' name='Highest Paid Job in Chicago'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{04496D18-6194-4192-B77D-D2255D83D995}' />
+    </window>
+    <window class='worksheet' name='Lowest Paid Job in Chicago'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0139FAAA-D7FD-4932-81C2-B36093FB1454}' />
+    </window>
+    <window class='worksheet' name='Highest Paid Job in NYC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5B4416CE-ECEB-454C-B23D-375A0AFF4BE4}' />
+    </window>
+    <window class='worksheet' name='Lowest Paid Job in NYC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{488C2E98-9085-4CF6-BD55-CA4007A55092}' />
+    </window>
+    <window class='worksheet' name='Budget Spent from 2014 to 2019 in NYC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CC9B9667-EAB8-44A6-988A-51C853381201}' />
+    </window>
+    <window class='worksheet' name='Average Salary from 2014 to 2019 in NYC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0A545C22-B6FF-4C93-AEBB-4C3E89F18A87}' />
+    </window>
+    <window class='worksheet' name='Numebr of Jobs from 2014 to 2019 in NYC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F4869911-9681-49B0-88AC-E9F609AB3282}' />
+    </window>
+    <window class='worksheet' name='Average Salary of New Jobs from 2016 to 2020 in NYC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0C5031F3-6072-46DA-B4C0-8761ECF7D26D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      /wPa06/lRTy4zgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Numebr of Jobs from 2014 to 2019 in NYC' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAARPElEQVR4nO3deXRcZ3nH8e+9d+6dTcvI0kiybCleZCt24tixs5Nw3AKBQENoe1gOELZS
+      2lIo0NPD6T89Pd0o3ZJAw1IKJCw9JUApLRROSoPpcbATL8RJZGPLsi0nlqx9H83MXd63fyiY
+      OJLrUTyj0cx9Pn/laBk947y/ed5773vfa2itNUKEVKQYLyIZEpWqoABcboBrrQmCAMMwilKU
+      EMulwA4Q0HO0G7umiblclsYam4GRGVpaGnFzeTZsWI/WGsuySlutEEVWWACUJpqsJRJ1iDkW
+      vpenqb6G2ZlJItFaZAIkKlVhATBM0AYNdQn6+wdoXb2azFye1tQalApKXKIQpWMU6yxQEAQy
+      BRIVxyx3AUKUkwRAhJoEQISaBECEmgRAhJoEQISaBECEmgRAhJoEQISaBECEmgRAhJoEQISa
+      BECEmgRAhJoEQISaBECEmgRAhFpBt0T6+TnODozS0dbE8ESGZEQx6xmkV9UTBAGJRKLUdQpR
+      EoXdE2ya5CZG6FWauKkZmJsmvbqDY888xdrOa4nFFEop2R9IVJyCAuBmswTKx1AB45ksa5oa
+      GBgYIJ1OM5fJkG6okW1RREWSm+JFqMlBsAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1CYAI
+      NQmACDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1CYAItYJ2hchl
+      pjlztp90cxNjUxlScYu8tqmvieP5AU2Nq0pdpxAlUVAAookEQS7L+GyepGORV2Bol5Pdx1m/
+      /TaUkn2BRGUqKADZmRkiMYdYxGR6Lkt9zCSPzYart5GfncSsaZZ9gURFkn2BRKjJQbAINQmA
+      CDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1
+      CYAINQmACDUJgAg1CYAItYJuitdakZnLEo86uL7CMjS+gqhjo7UmEinoZYRYcQoauW52jv4z
+      veTNOPlsjrqERW1jK3PjQ8QbWmlrXoXWGqVUqesVoqgKCoDv5jCTq1jXUEP3idPU1NQxNDhE
+      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
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
